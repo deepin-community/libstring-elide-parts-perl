@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+libstring-elide-parts-perl (0.07-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+  * Update standards version to 4.6.0, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 03:47:39 +0100
+
+libstring-elide-parts-perl (0.07-2) unstable; urgency=medium
+
+  * Team upload.
+  * Declare compliance with Debian Policy 4.4.0.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 11 Jul 2019 19:12:12 +0200
+
+libstring-elide-parts-perl (0.07-1) unstable; urgency=low
+
+  * Initial release (Closes: #927374).
+
+ -- Laurent Baillet <laurent.baillet@gmail.com>  Thu, 18 Apr 2019 13:53:01 +0000
